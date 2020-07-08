@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(216, 138, 37);
+}
+body{
+    background: wheat;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: rgb(206, 136, 79);
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgba(3, 3, 3, 0.4);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(7, 95, 95);
+    transition: all .3s;
+}
+
+/*Submenu*/
+
+.submenu{
+    position: absolute;
+    background: rgb(231, 185, 99);
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: rgb(37, 8, 168, 0.4);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+P{
+    font-size: 1.5em;
+    color: blue;
+    background-image: none;
+    background-color: transparent;
+    text-align: center;
+}
+main{
+    background-position: center;
+    background-image: url("../taller15/img/manzana.jpg");
+    background-repeat: no-repeat;
+}
