@@ -69,8 +69,12 @@ P{
     background-color: transparent;
     text-align: center;
 }
-main{
+div{
     background-position: center;
     background-image: url("../taller15/img/manzana.jpg");
     background-repeat: no-repeat;
+    background-color: yellowgreen;
+    width: 500px;
+    height: 400px;
+
 }
